@@ -7,6 +7,8 @@ function Signup() {
     const handleSubmit = e => {
         e.preventDefault();
 
+        // condition
+
         if (!name) {
             alert('Please enter your name.');
             return;
