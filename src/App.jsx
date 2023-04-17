@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* All Routes */}
       <BrowserRouter>
         <Header />
         <Routes>
@@ -23,4 +24,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
